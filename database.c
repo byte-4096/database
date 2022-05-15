@@ -63,6 +63,7 @@ int main(){
       printf("adding... percentage:");
       printf("#");
   }
-  
+  printf("Program shutting down...");
+  sleep(2);
   fclose(fs1);
 }
