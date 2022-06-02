@@ -3,6 +3,7 @@
 #include <unistd.h>
 
 
+
 #define MAX 5000
 
 char word = '!';
@@ -38,5 +39,5 @@ char getfs(FILE fs, char keywords, char position){
 //encodes a specific file to binary
 char binfs(char fname){
   //TODO: code  
-  
+
 }
