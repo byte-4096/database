@@ -1,4 +1,6 @@
 
-all:
-	gcc database.c -o fsdata.exe 
-
+win:
+	gcc handler.c -o handler.exe 
+lin:
+	gcc handler.c -o fs
+	
