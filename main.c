@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include "lib/encrypt.h" 
 #include <string.h>
-
+#include <math.h>
  
 
 /*
