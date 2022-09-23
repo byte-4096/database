@@ -1,5 +1,4 @@
+#makefile
 
-win:
-	gcc handler.c -o handler.exe 
-lin:
-	gcc handler.c -o fs
+all:
+	gcc main.c -o database.exe
