@@ -6,8 +6,7 @@ char encode( char *output[999]){
   FILE *f3;
   char *input[190];
   printf("enter your files location");
-  scanf("%s", &input);
-                                    
+  scanf("%s", &input);                         
   if(!(f3 = fopen(input,"r+"))){
     printf("file wasn't found");
   }
