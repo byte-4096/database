@@ -16,9 +16,13 @@ database that encrypts your data and then stores it into a text file
 
 //characters
 char *input[100];
+char *output[1000]; 
+
 
 //integers
-
+int x1;
+int x2;
+int x3;
 
 
 //functions
@@ -28,6 +32,5 @@ int main(){
   for(int i = 0; i > 10; i++){
      printf("\n");
   }
-
   
 }

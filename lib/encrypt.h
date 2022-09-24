@@ -11,6 +11,7 @@ char encode( char *output[999]){
     printf("file wasn't found");
   }
   else{
-
+    char *readfs[1000] = fread();
+    
   }
 }
